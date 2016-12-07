@@ -151,6 +151,19 @@
      <string/>
     </property>
    </widget>
+   <widget class="QScrollBar" name="verticalScrollBar">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>130</y>
+      <width>16</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
    <zorder>labelTrilho01</zorder>
    <zorder>labelTrilho02</zorder>
    <zorder>labelTrilho03</zorder>
@@ -159,6 +172,7 @@
    <zorder>labelTrem03</zorder>
    <zorder>labelTrem02</zorder>
    <zorder>labelTrem01</zorder>
+   <zorder>verticalScrollBar</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

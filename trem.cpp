@@ -105,7 +105,7 @@ void Trem::run()
                     x-=10;
                 }
                 else{
-                    if (y < 250 && semaforos[0]->getContador() <= 0) {
+                    if (y < 260 && semaforos[0]->getContador() <= 0) {
                         //Se a prox via (RC 1) estiver ocupada, espera
                     }else{
                         y-=10; // Se nao, anda
